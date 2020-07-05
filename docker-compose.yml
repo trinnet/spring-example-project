@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+    spring-example:
+        image: trinnet79/spring-example-project.github.io
+        build: .
+        ports:
+            - 8080:8080
